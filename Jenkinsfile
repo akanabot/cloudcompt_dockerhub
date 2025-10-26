@@ -1,6 +1,7 @@
 pipeline {
     agent any
 
+    
     environment {
         COMPOSE_FILE = "docker-compose.yml"
         CONTAINER_NAME = "cloudcomputingg"   // nama service dari docker-compose
